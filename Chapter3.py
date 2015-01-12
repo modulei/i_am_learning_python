@@ -38,6 +38,7 @@ print pay
 #  Error, please enter numeric input
 #  Enter Hours: 20
 ##################
+
 error_msg_numeric = "Error, please enter numeric input"
 
 hours = raw_input('Enter Hours: ')
@@ -71,7 +72,7 @@ print ('Pay: '),
 print pay
 
 ##################
-# Exercise 3.2
+# Exercise 3.3
 # Write a program to prompt for a score between 0.0 and 1.0. If the
 # score is out of range print an error. If the score is between 0.0 and 1.0, print a
 # grade using the following table:
@@ -83,6 +84,7 @@ print pay
 #   < 0.6 F
 #
 # Missing: Error looping.
+##################
 
 error_msg_invalid = "ERROR: Invalid input."
 input_score = raw_input('Enter a score between 0.0 and 1.0: ')
@@ -115,6 +117,3 @@ elif input_score >= 0.6:
   #break
 else:
   print ('wtf?')
-
-
-
