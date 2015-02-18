@@ -36,7 +36,7 @@ def computepay(hour_in, rate_in):
   rate = rate_in
   try:
     float(rate) >=0
-  except:
+  except
     print (error_msg_numeric)
 
   hours = float(hours)
