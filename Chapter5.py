@@ -20,7 +20,6 @@
 total = 0
 count = 0
 average = 0
-my_number_array = 0
 error_msg = "Error, please enter a valid number."
 
 while True:
@@ -34,8 +33,11 @@ while True:
       count += 1
   except:
       print error_msg
-average = total / count
-print '##DONE!'
-print '##Total: ', total
-print '##Count: ', count
-print '##Average: ', average
+if count!=0:
+  average = total / count
+  print '##DONE!'
+  print '##Total: ', total
+  print '##Count: ', count
+  print '##Average: ', average
+else:
+  print 'You did not enter any values!'
